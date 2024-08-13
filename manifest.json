@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Sample Extensions",
+    "description": "Sample RND Extension",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "off.png"
+    },
+    "background": {
+      "service_worker": "script/index.js"
+    },
+    "permissions": ["tabs", "activeTab", "nativeMessaging"],
+    "host_permissions": [
+      "*://*/*"
+    ]
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 12px;
+}
+h1 {
+    color: #666;
+}
+
+#btn-popup{
+    background-color: #9c3a3a;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    cursor: pointer;
+}
